@@ -3,17 +3,27 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ContourPunchCard.playground#CharacterRangeLen=78&amp;CharacterRangeLoc=955&amp;EndingColumnNumber=0&amp;EndingLineNumber=31&amp;StartingColumnNumber=5&amp;StartingLineNumber=30&amp;Timestamp=665514784.629317"
+         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ExploreComputerVisionAPIs/ContourPunchCard.playground#CharacterRangeLen=205&amp;CharacterRangeLoc=970&amp;EndingColumnNumber=127&amp;EndingLineNumber=31&amp;StartingColumnNumber=20&amp;StartingLineNumber=30&amp;Timestamp=665579134.88028"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ContourPunchCard.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=154&amp;EndingColumnNumber=14&amp;EndingLineNumber=6&amp;StartingColumnNumber=5&amp;StartingLineNumber=6&amp;Timestamp=665514784.6293859"
+         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ExploreComputerVisionAPIs/ContourPunchCard.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=154&amp;EndingColumnNumber=14&amp;EndingLineNumber=6&amp;StartingColumnNumber=5&amp;StartingLineNumber=6&amp;Timestamp=665579134.880383"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ContourPunchCard.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=613&amp;EndingColumnNumber=0&amp;EndingLineNumber=22&amp;StartingColumnNumber=14&amp;StartingLineNumber=21&amp;Timestamp=665514784.629429"
+         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ExploreComputerVisionAPIs/ContourPunchCard.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=613&amp;EndingColumnNumber=0&amp;EndingLineNumber=22&amp;StartingColumnNumber=14&amp;StartingLineNumber=21&amp;Timestamp=665579134.880451"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ExploreComputerVisionAPIs/ContourPunchCard.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=1053&amp;EndingColumnNumber=18&amp;EndingLineNumber=31&amp;StartingColumnNumber=5&amp;StartingLineNumber=31&amp;Timestamp=665579134.880515"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/atineose/dev/references/iOS/Apple%20resources/Apple%20ML%20WWDC%202020/ExploreComputerVisionAPIs/ContourPunchCard.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=955&amp;EndingColumnNumber=17&amp;EndingLineNumber=30&amp;StartingColumnNumber=5&amp;StartingLineNumber=30&amp;Timestamp=665579134.880594"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

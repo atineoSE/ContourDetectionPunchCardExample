@@ -28,5 +28,5 @@ let requestHandler = VNImageRequestHandler(ciImage: inputImage, options: [:])
 try requestHandler.perform([contourRequest])
 let contoursObservation = contourRequest.results!.first!
 print("\(contoursObservation.contourCount) contours found")
-_ = drawContours(contoursObservation: contoursObservation, sourceImage: imageView)
-
+let resultUIView = drawContours(contoursObservation: contoursObservation, sourceImage: imageView)
+let resultCIImage = drawContours(contoursObservation: contoursObservation, sourceImage: CIImage(cgImage: sourceImage.cgImage!))

@@ -129,3 +129,36 @@ public func drawContours(
     
     return sourceImage
 }
+
+public func drawContours(
+    contoursObservation: VNContoursObservation,
+    sourceImage: CIImage
+) -> CIImage {
+    // Get CGPath for observation
+    let path = UIBezierPath(cgPath: contoursObservation.normalizedPath)
+    //path.apply(CGAffineTransform.verticalFlip)    // No need for vertical flip
+    path.apply(CGAffineTransform(scaleX: sourceImage.extent.width, y: sourceImage.extent.height))
+
+    // Define shape layer to contain path
+    let pathLayer = CAShapeLayer()
+    pathLayer.strokeColor = UIColor.red.cgColor
+    pathLayer.fillColor = UIColor.clear.cgColor
+    pathLayer.lineWidth = 4.0
+    pathLayer.path = path.cgPath
+
+    // Draw path in a new image
+    let context = CGContext.context(width: Int(sourceImage.extent.width), height: Int(sourceImage.extent.height))!
+    pathLayer.render(in: context)
+    let pathImage = CIImage(cgImage: context.makeImage()!)
+    
+    // Overlay path over input image
+    return pathImage.composited(over: sourceImage)
+}
+
+extension CGContext {
+    static func context(width: Int, height: Int) -> CGContext? {
+        let colorSpace = CGColorSpace(name: CGColorSpace.sRGB)!
+        let bitmapInfo = CGBitmapInfo(rawValue: CGImageAlphaInfo.premultipliedLast.rawValue)
+        return CGContext(data: nil, width: width, height: height, bitsPerComponent: 8, bytesPerRow: 0, space: colorSpace, bitmapInfo: bitmapInfo.rawValue)
+    }
+}
